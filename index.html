@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="second-btn" id="second-btn"><button>Add Student</button></div>
+    <div class="container">
+        <div id="left">
+            <div id="wrapper">
+                <header>
+                  <div id="page-banner">
+                    <h1 class="title">Student List</h1>
+                  </div>
+                </header>
+                <form id="add-book">
+                  <input id="add-student" type="text" placeholder="Student Name.."/> 
+                  <input id="score" type="number" min="0" max="100" placeholder="Student score.."><br>
+                  <textarea name="sms" id="sms" cols="40" rows="5" placeholder="Comment..."></textarea><br>
+                  <label for="Gender" requred>Gender:
+                    <input type="radio" name="select" value="Female">Female
+                    <input type="radio" name="select" value="Male">Male
+                  </label><br>
+                  <button>+ Add</button>
+                </form>
+              </div>
+          </div>
+        <div id="down">
+          <div class="name-group">
+            <div class="hide_and_show">
+                <div id="wrapper">
+                  <div id="book-list">
+                    <h2 class="title">Student List</h2>
+                    <form action="" id="search-name">
+                      <input type="text" placeholder="Search..." />
+                    </form>
+                    <ul>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
